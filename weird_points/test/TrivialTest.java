@@ -20,4 +20,11 @@ public class TrivialTest {
         Trivial t = new Trivial();
         assertEquals(1, t.f());
     }
+
+    @Test
+    @Points("1.3")
+    public void test3() {
+        Trivial t = new Trivial();
+        assertEquals(1, t.f());
+    }
 }
