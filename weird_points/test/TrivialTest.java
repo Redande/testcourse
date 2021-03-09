@@ -8,15 +8,15 @@ public class TrivialTest {
 //    private static final String PISTE = "1";
 
     @Test
-    @Point("1.1")
+    @Points("1.1")
     public void testF() {
         Trivial t = new Trivial();
         assertEquals(1, t.f());
     }
 
     @Test
-    @Point("1.2")
-    public void testF() {
+    @Points("1.2")
+    public void test2() {
         Trivial t = new Trivial();
         assertEquals(1, t.f());
     }
