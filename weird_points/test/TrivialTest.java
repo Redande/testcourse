@@ -5,17 +5,17 @@ import static org.junit.Assert.*;
 
 public class TrivialTest {
 
-    private static final String PISTE = "1";
+//    private static final String PISTE = "1";
 
     @Test
-    @Point(PISTE + ".1")
+    @Point("1.1")
     public void testF() {
         Trivial t = new Trivial();
         assertEquals(1, t.f());
     }
 
     @Test
-    @Point(PISTE + ".2")
+    @Point("1.2")
     public void testF() {
         Trivial t = new Trivial();
         assertEquals(1, t.f());
