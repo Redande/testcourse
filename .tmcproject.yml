@@ -1,1 +1,4 @@
 tests_timeout_ms: 10000
+extra_exercise_files:
+  - ".vscode/settings.json"
+  - ".vscode/extensions.json"
